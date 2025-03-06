@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, html , body, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 500;
+    scroll-behavior: smooth;
+}
+
+.fContainer {
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: #1F1E1D;
+    font-size: 20px;
+    padding: 15px;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+
+.lastname {
+    color: yellow ;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    padding-right: 20px;
+    
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+    color: yellow;
+    transition: all .3s ease-in-out ;
+}
+
+.hContainer {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 20rem;
+    background-color: #1F1E1D;
+    margin: 0;
+    height: 36vh;
+    font-size: 90px;
+}
+
+h1 {
+    font-family: "Bebas Neue", serif;
+    font-weight: 700;
+}
+
+.home {
+    display: flex;
+    gap: 50px;
+    padding-left: 310px;
+    padding-top: 0px;
+}
+
+.home-d {
+    font-size: 20px;
+    text-align: start;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.img1 {
+    width: 100px;
+}
+
+.about {
+    background-color:  #F6F3EA;
+    height: 80vh;
+    display: flex;
+    color: black;
+    padding-top: 15rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 40px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.about-d { 
+    justify-content: center;
+    /* padding-left: 40px;
+    padding-top: 20rem; */
+    /* font-size: 25px; */
+    /* padding-right: 40px; */
+}
+
+.about-h {
+    padding-bottom: 40px;
+    font-size: 5rem;
+}
+
+.img3 {
+    height: 30rem;
+    /* padding-left: 40px;
+    padding-top: 20rem; */
+}
+
+.eduNexp {
+    background-color: #1F1E1D;
+    color: white;
+    height: 100vh;
+}
+
+.img4 {
+    height: 39.52rem;
+}
+
+.education {
+    display: flex;
+    /* justify-content: center; */
+    gap: 4rem;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.andE {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.and-e {
+    text-align:start;
+    font-size: 70px;
+}
+
+.experience {
+    display: flex;
+    text-align: justify;
+    gap: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.skills-d {
+    padding: 10px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F3EA;
+}
+
+.skills-d div {
+    height: 370px;
+    width: 335px;
+    background: #1F1E1D;
+    margin: 60px;
+    text-align: justify;
+    color: white;
+    padding: 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+
+.skills-h {
+    letter-spacing:2px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.skills-h1 {
+    text-align: center;
+    padding-top: 90px;
+    font-size: 6rem;
+    background-color:#F6F3EA;
+}
+
+.skills-d div:hover {
+    transition: ease-in-out;
+    box-shadow: gray;
+}
+
+.c-container {
+    height: 80vh;
+    padding-top: 8rem;
+    padding-left: 8rem;
+}
+
+
+.h-contact {
+    font-size: 10rem;
+}
+
+.p-container {
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #1F1E1D;
+    color: white;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.pf {
+    padding-top: 10px;
+}
+
+.link {
+    display: flex;
+    padding-top: 40px;
+    padding: 40px;
+    padding-left: 0;
+    text-decoration: none;
+    color:#1F1E1D ;
+    font-family: "Bebas Neue", serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.link :hover {
+    color:darkgoldenrod ;
+    transition:all .3s ease-in-out;
+}
